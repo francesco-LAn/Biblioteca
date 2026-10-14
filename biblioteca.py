@@ -1,5 +1,6 @@
 libri = []
-
+"""Sistema di gestione di una piccola biblioteca."""
+# Progetto didattico
 
 def aggiungi_libro(titolo, autore):
     libro = {"titolo": titolo, "autore": autore, "prestato": False}
