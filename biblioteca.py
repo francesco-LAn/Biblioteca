@@ -13,6 +13,7 @@ def lista_libri():
         print(f"[{libro['titolo']}] {libro['autore']} - stato: {libro['prestato']}")
 
 
+
 def cerca_libro(titolo):
 for libro in libri:
 if libro["titolo"].lower() == titolo.lower():
