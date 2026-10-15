@@ -26,18 +26,17 @@ if libro:
  libro["prestato"] = True
 return libro
 
-<<<<<<< HEAD
+
 def restituisci_libro(titolo):
  libro = cerca_libro(titolo)
 if libro:
  libro["prestato"] = False
 return libro
-=======
+
 def calcola_multa(giorni_ritardo):
 return giorni_ritardo * 0.20
->>>>>>> 9419300 (Aggiunta funzione calcola_multa)
+
 
 
 def paga_multa(valore):
     retur True
-    
