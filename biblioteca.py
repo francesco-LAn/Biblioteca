@@ -36,3 +36,8 @@ return libro
 def calcola_multa(giorni_ritardo):
 return giorni_ritardo * 0.20
 >>>>>>> 9419300 (Aggiunta funzione calcola_multa)
+
+
+def paga_multa(valore):
+    retur True
+    
